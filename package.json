@@ -1,0 +1,13 @@
+{
+  "name": "legion-of-titans-website",
+  "version": "1.0.0",
+  "description": "Website for the Legion of Titans NGO",
+  "scripts": {
+    "watch-gallery": "nodemon --watch gallery --exec \"node legion-of-titans/.idx/TITANS/scripts/build-gallery.js\""
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "nodemon": "^3.1.4"
+  }
+}
