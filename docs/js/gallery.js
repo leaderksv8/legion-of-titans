@@ -1,39 +1,41 @@
+
 document.addEventListener('DOMContentLoaded', () => {
-    const galleryContainer = document.getElementById('gallery-container');
+    const galleryContainer = document.querySelector('.gallery-albums');
 
-    if (galleryContainer && typeof galleryDatabase !== 'undefined') {
-        if (galleryDatabase.length === 0) {
-            galleryContainer.innerHTML = '<p>Наразі немає доступних альбомів.</p>';
-            return;
-        }
+    if (galleryContainer) {
+        // Clear any old content
+        galleryContainer.innerHTML = '';
 
-        galleryDatabase.forEach(album => {
-            const albumElement = document.createElement('div');
-            albumElement.classList.add('album');
+        // Check if galleryData is available
+        if (typeof galleryData !== 'undefined' && galleryData.length > 0) {
+            galleryData.forEach(album => {
+                const albumElement = document.createElement('div');
+                albumElement.className = 'album';
 
-            const albumTitle = document.createElement('h3');
-            albumTitle.textContent = album.title;
-            albumElement.appendChild(albumTitle);
+                albumElement.innerHTML = `
+                    <a href="#" class="album-link" data-album-id="${album.id}">
+                        <img src="${album.cover}" alt="${album.title}" class="album-cover">
+                        <div class="album-title">${album.title}</div>
+                    </a>
+                `;
 
-            const mediaContainer = document.createElement('div');
-            mediaContainer.classList.add('media-container');
-
-            album.media.forEach(mediaItem => {
-                if (mediaItem.type === 'image') {
-                    const img = document.createElement('img');
-                    img.src = mediaItem.src;
-                    img.alt = album.title;
-                    mediaContainer.appendChild(img);
-                } else if (mediaItem.type === 'video') {
-                    const video = document.createElement('video');
-                    video.src = mediaItem.src;
-                    video.controls = true;
-                    mediaContainer.appendChild(video);
-                }
+                galleryContainer.appendChild(albumElement);
             });
-
-            albumElement.appendChild(mediaContainer);
-            galleryContainer.appendChild(albumElement);
-        });
+        } else {
+            galleryContainer.innerHTML = '<p>Наразі фотоальбомів немає.</p>';
+        }
     }
+
+    // Handle clicking on an album to show photos (simplified)
+    // This part will be expanded or placed in a different script if needed
+    // For now, it just prevents the default link behavior
+    galleryContainer.addEventListener('click', (e) => {
+        if (e.target.closest('.album-link')) {
+            e.preventDefault();
+            const albumId = e.target.closest('.album-link').dataset.albumId;
+            // We would load the photos for this albumId here
+            // For example: window.location.href = `album.html?id=${albumId}`;
+            alert(`Тут будуть фотографії для альбому: ${albumId}`);
+        }
+    });
 });
