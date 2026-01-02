@@ -1,0 +1,30 @@
+
+[
+  {
+    "date": "15.01.2024",
+    "icon": "fas fa-calendar-alt",
+    "title_uk": "Зустріч з представниками ЄС",
+    "title_en": "Meeting with EU representatives",
+    "text_uk": "Обговорення нових програм підтримки ветеранів та співпраці з європейськими фондами.",
+    "text_en": "Discussion of new veteran support programs and cooperation with European funds.",
+    "link": "#"
+  },
+  {
+    "date": "10.01.2024",
+    "icon": "fas fa-graduation-cap",
+    "title_uk": "Новий навчальний курс",
+    "title_en": "New training course",
+    "text_uk": "Запуск курсу з кібербезпеки та цифрових навичок для ветеранів. Безкоштовно для членів організації.",
+    "text_en": "Launch of a cybersecurity and digital skills course for veterans. Free for organization members.",
+    "link": "#"
+  },
+  {
+    "date": "05.01.2024",
+    "icon": "fas fa-hands-helping",
+    "title_uk": "Благодійний захід",
+    "title_en": "Charity event",
+    "text_uk": "Різдвяний благодійний захід для дітей ветеранів. Зібрано кошти на лікування та реабілітацію.",
+    "text_en": "Christmas charity event for veterans' children. Funds raised for treatment and rehabilitation.",
+    "link": "#"
+  }
+]

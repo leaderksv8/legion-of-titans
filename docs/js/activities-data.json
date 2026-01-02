@@ -1,0 +1,45 @@
+
+[
+  {
+    "icon": "fas fa-file-contract",
+    "title_uk": "Допомога з документами",
+    "title_en": "Document Assistance",
+    "text_uk": "Оформлення субсидій, пенсій, інших соціальних послуг для ветеранів та їхніх родин.",
+    "text_en": "Processing subsidies, pensions, and other social services for veterans and their families."
+  },
+  {
+    "icon": "fas fa-gavel",
+    "title_uk": "Юридична допомога",
+    "title_en": "Legal Assistance",
+    "text_uk": "Безоплатні юридичні консультації та супровід через партнерські організації.",
+    "text_en": "Free legal consultations and support through partner organizations."
+  },
+  {
+    "icon": "fas fa-heartbeat",
+    "title_uk": "Медична реабілітація",
+    "title_en": "Medical Rehabilitation",
+    "text_uk": "Організація лікування та реабілітації через фонди та медичних партнерів.",
+    "text_en": "Organization of treatment and rehabilitation through funds and medical partners."
+  },
+  {
+    "icon": "fas fa-users",
+    "title_uk": "Проведення дозвілля",
+    "title_en": "Leisure Activities",
+    "text_uk": "Зустрічі з побратимами, спільні заходи, екскурсії та інші форми спілкування.",
+    "text_en": "Meetings with comrades, joint events, excursions, and other forms of communication."
+  },
+  {
+    "icon": "fas fa-graduation-cap",
+    "title_uk": "Навчальні програми",
+    "title_en": "Educational Programs",
+    "text_uk": "Інструкторські програми поводження зі зброєю, освоєння квадрокоптерів, інші навички.",
+    "text_en": "Instructor programs for weapons handling, drone mastering, other skills."
+  },
+  {
+    "icon": "fas fa-handshake",
+    "title_uk": "Міжнародні проекти",
+    "title_en": "International Projects",
+    "text_uk": "Співпраця з зарубіжними компаніями та посольствами для реалізації спільних ініціатив.",
+    "text_en": "Cooperation with foreign companies and embassies to implement joint initiatives."
+  }
+]

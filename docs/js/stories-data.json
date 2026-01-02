@@ -1,0 +1,30 @@
+
+[
+  {
+    "icon": "fas fa-user-tie",
+    "title_uk": "Історія Олександра",
+    "title_en": "Alexander's Story",
+    "text_uk": "Ветеран АТО, отримав допомогу у оформленні документів та знайшов роботу через нашу програму працевлаштування.",
+    "text_en": "ATO veteran received help with paperwork and found a job through our employment program.",
+    "quote_uk": "«Дякую Легіону Титанів за підтримку в найскладніший момент життя»",
+    "quote_en": "«Thank you Legion of Titans for support in the most difficult moment of life»"
+  },
+  {
+    "icon": "fas fa-user-graduate",
+    "title_uk": "Історія Марії",
+    "title_en": "Maria's Story",
+    "text_uk": "Учасниця бойових дій, пройшла реабілітаційний курс та тепер допомагає іншим ветеранам як волонтер.",
+    "text_en": "Combat participant completed a rehabilitation course and now helps other veterans as a volunteer.",
+    "quote_uk": "«Знайшла нове покликання - допомагати тим, хто поруч»",
+    "quote_en": "«Found a new calling - to help those around me»"
+  },
+  {
+    "icon": "fas fa-user-cog",
+    "title_uk": "Історія Юрія",
+    "title_en": "Yuriy's Story",
+    "text_uk": "Інвалід війни, освоїв нову професію програміста через наші навчальні курси та тепер працює IT-фахівцем.",
+    "text_en": "War disabled, mastered a new profession as a programmer through our training courses and now works as an IT specialist.",
+    "quote_uk": "«Навчання дало мені нові можливості та впевненість у майбутньому»",
+    "quote_en": "«Training gave me new opportunities and confidence in the future»"
+  }
+]
